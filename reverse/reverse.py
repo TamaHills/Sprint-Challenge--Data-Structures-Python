@@ -45,7 +45,6 @@ class LinkedList:
 
   def reverse_list(self):
     prev = None
-    temp = None
     current = self.head  # a
 
     while current:
