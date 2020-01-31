@@ -13,7 +13,6 @@ class RingBuffer:
                 self.current = self.storage.head
             
             self.current.value = item
-
             self.current = self.current.next
         else:
             self.storage.add_to_tail(item)
